@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #F0F0F0;
+}
+
+.container{
+    padding: 3rem;
+}
+
+.clearfix{
+    content: "";
+    display: none;
+    clear: both;
+}
+
+/*NAV*/
+
+nav{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+nav h1{
+    font-size: 3.2rem;
+    opacity: 0.8;
+}
+
+nav p{
+    font-size: 1.6rem;
+    padding: 1rem;
+    word-spacing: 2px;
+    opacity: 0.8;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    opacity: 0.7;
+    font-weight: 600;
+    transition: opacity 0.3s;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+.icons a{
+    font-size: 3rem;
+    color: black;
+    padding: 1rem;
+}
+
+a.opacity1{
+    opacity: 1;
+}
+
+hr{
+    color: black;
+    opacity: 0.5;
+    width: 50%;
+}
+/*SECTİON*/
+
+section .bp{
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+section .bp{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section .bp-img{
+    width: 100%;
+}
+
+.bp-img img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+section .bp-header{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section .bp-text{
+    font-size: 1.4rem;
+    padding: 1rem;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+section .bp-text a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+section .date{
+    padding: 1rem;
+}
+
+section .bp-tag{
+    color: black;
+    padding-right: .5rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+section .bp-tag:hover{
+    opacity: 1;
+}
+
+section .bp-text a{
+    transition: font-weight 0.3s;
+}
+
+section .bp-text a:hover{
+    font-weight: 900;
+}
+
+@media (min-width:900px){
+    nav{
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    nav h1{
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    nav p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    nav ul{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    nav .icons{
+        margin-top: 1rem;
+    }
+
+    section{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media (max-width:900px){
+    hr{
+        display: none;
+    }
+
+}
+
